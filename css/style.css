@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'VT323', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#36e5df, #12c4be);
+    color: #087A67;
+}
+
+/* set fontsize according to screensize */
+@media screen and (max-height: 600px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-height: 601px) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+.credits {
+    font-size: 24px;
+}
