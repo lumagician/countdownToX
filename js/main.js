@@ -2,7 +2,7 @@ $(document).ready(function () {
     // set interval to 1000ms or 1s
     setInterval(() => {
         // define the date your counting down to
-        var lastDay = new Date("August 25, 2022 12:00:00");
+        var lastDay = new Date("July 20, 2023 12:00:00");
 
         // time in mills since 1970 for set date
         var lastDayMillis = lastDay.getTime();
